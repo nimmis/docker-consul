@@ -23,6 +23,14 @@ fi
 HOSTNAME=$(hostname)
 
 #
+# show build info
+#
+
+show_build_info() {
+  cat /etc/BUILDS/*
+}
+
+#
 # show help screen 
 #
 
@@ -184,6 +192,8 @@ do_reload() {
 #
 # main 
 #
+
+show_build_info
 
 if [ -n "$1" ]; then
 
