@@ -24,6 +24,6 @@ TAGS=$(ls -1l $BASEDIR | grep ^d | grep '[0-9]\.' | grep -v $1$ | awk '{print $N
 
 for TAG in $TAGS; do
 
-  echo "cp $BASEDIR/$1/$2 $BASEDIR/$TAG/$2"
+  cp $BASEDIR/$1/$2 $BASEDIR/$TAG/$2
 
 done
