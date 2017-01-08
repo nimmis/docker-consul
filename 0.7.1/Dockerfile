@@ -11,6 +11,10 @@ COPY docker-entrypoint.sh /
 
 RUN apk update && apk upgrade && \
 
+    # Make info file about this build
+    mkdir -p /etc/BUILDS/ && \
+    printf "Build of nimmis/consul:${CONSUL_VERSION}, date: %s\n"  `date -u +"%Y-%m-%dT%H:%M:%SZ"` > /etc/BUILDS/consul && \
+
     # get curl 
     apk add curl gnupg libcap openssl&& \
 
