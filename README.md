@@ -318,8 +318,9 @@ The available version are **nimmis/consul:< tag >** where tag is
 
 | Tag    | Consul version | size |
 | ------ | -------------- | ---- |
-| latest | latest/0.7.2 | [![](https://images.microbadger.com/badges/image/nimmis/consul.svg)](https://microbadger.com/images/nimmis/consul "Get your own image badge on microbadger.com") | 
-| 0.7 | 0.7.2 | [![](https://images.microbadger.com/badges/image/nimmis/consul:0.7.svg)](https://microbadger.com/images/nimmis/consul:0.7 "Get your own image badge on microbadger.com") |
+| latest | latest/0.7.3 | [![](https://images.microbadger.com/badges/image/nimmis/consul.svg)](https://microbadger.com/images/nimmis/consul "Get your own image badge on microbadger.com") | 
+| 0.7 | 0.7.3 | [![](https://images.microbadger.com/badges/image/nimmis/consul:0.7.svg)](https://microbadger.com/images/nimmis/consul:0.7 "Get your own image badge on microbadger.com") |
+| 0.7.3 | 0.7.3 | [![](https://images.microbadger.com/badges/image/nimmis/consul:0.7.3.svg)](https://microbadger.com/images/nimmis/consul:0.7.3 "Get your own image badge on microbadger.com") |
 | 0.7.2 | 0.7.2 | [![](https://images.microbadger.com/badges/image/nimmis/consul:0.7.2.svg)](https://microbadger.com/images/nimmis/consul:0.7.2 "Get your own image badge on microbadger.com") |
 | 0.7.1 | 0.7.1 | [![](https://images.microbadger.com/badges/image/nimmis/consul:0.7.1.svg)](https://microbadger.com/images/nimmis/consul:0.7.1 "Get your own image badge on microbadger.com") |
 | 0.7.0 | 0.7.0 | [![](https://images.microbadger.com/badges/image/nimmis/consul:0.7.0.svg)](https://microbadger.com/images/nimmis/consul:0.7.0 "Get your own image badge on microbadger.com") |
